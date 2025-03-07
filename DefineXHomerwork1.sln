@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WınFormsAttribute", "WınFormsAttribute\WınFormsAttribute.csproj", "{0DEE1B83-5673-4B7F-84F3-A1F8960297EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeLibrary", "AttributeLibrary\AttributeLibrary.csproj", "{4CE9F2F4-F5BE-42EE-8089-8BC4A388366F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DEE1B83-5673-4B7F-84F3-A1F8960297EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEE1B83-5673-4B7F-84F3-A1F8960297EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEE1B83-5673-4B7F-84F3-A1F8960297EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEE1B83-5673-4B7F-84F3-A1F8960297EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE9F2F4-F5BE-42EE-8089-8BC4A388366F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE9F2F4-F5BE-42EE-8089-8BC4A388366F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE9F2F4-F5BE-42EE-8089-8BC4A388366F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE9F2F4-F5BE-42EE-8089-8BC4A388366F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
