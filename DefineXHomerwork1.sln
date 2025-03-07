@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WınFormsAttribute", "WınF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeLibrary", "AttributeLibrary\AttributeLibrary.csproj", "{4CE9F2F4-F5BE-42EE-8089-8BC4A388366F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeTestWeb", "AttributeTestWeb\AttributeTestWeb.csproj", "{040387B0-1F9E-404C-B15F-4FDFEA1DB05C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4CE9F2F4-F5BE-42EE-8089-8BC4A388366F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CE9F2F4-F5BE-42EE-8089-8BC4A388366F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CE9F2F4-F5BE-42EE-8089-8BC4A388366F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040387B0-1F9E-404C-B15F-4FDFEA1DB05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040387B0-1F9E-404C-B15F-4FDFEA1DB05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040387B0-1F9E-404C-B15F-4FDFEA1DB05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040387B0-1F9E-404C-B15F-4FDFEA1DB05C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

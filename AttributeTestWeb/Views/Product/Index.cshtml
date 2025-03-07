@@ -1,0 +1,23 @@
+﻿@using AttributeLibrary.Attributes;
+@model UrunEntity
+
+<h2>Create New Product</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="UrunAdi">Product Name</label>
+        <input asp-for="UrunAdi" class="form-control" />
+        <span asp-validation-for="UrunAdi" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Fiyat">Price</label>
+        <input asp-for="Fiyat" class="form-control" />
+        <span asp-validation-for="Fiyat" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SonSatisTarihi">Last Sale Date</label>
+        <input asp-for="SonSatisTarihi" class="form-control" type="date" />
+        <span asp-validation-for="SonSatisTarihi" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
